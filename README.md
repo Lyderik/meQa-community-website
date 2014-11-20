@@ -1,2 +1,2 @@
-meQa-community-website
+meQa community
 ======================
