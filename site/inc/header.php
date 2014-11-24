@@ -18,7 +18,7 @@
           <li class="name">
             <h1>
               <a href="<?php echo DIR?>">
-                RAF Frag'em
+                meQa  |  Mysterious Earthquake Army
               </a>
             </h1>
           </li>

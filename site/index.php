@@ -11,7 +11,7 @@ $pageTitle = "RAF | Rent a frag home";
 
 ////// En of page variables ///////
 
-include ROOT . 'inc/header.php';
+include ROOT . 'inc/header.php';  // Load header
 ?>
 <div id="suModal" class="reveal-modal" data-reveal>
   <h2>Terms and conditions</h2>
@@ -20,6 +20,11 @@ include ROOT . 'inc/header.php';
 </div>
 
 <div class="row" style="margin-top: 20px;">
+  <div class="medium-12 columns panel">
+    <h1>Some title</h1>
+    <p>Erik Knud Something..</p>
+  </div>
+  <!--
   <div class="medium-3 medium-uncentered small-6 small-centered columns"><img src="<?php echo DIR?>code/img/logo.png" width="100%"/></div>
   <div class="medium-9 columns panel">
     <h1>Arms race Tournament!</h1>
@@ -43,6 +48,7 @@ include ROOT . 'inc/header.php';
     <img src="<?php echo DIR?>code/img/twitch.png" width="100%">
   </div>
 	<div class="medium-9 columns" style="padding:0;"><figure style="margin:0"><object type="application/x-shockwave-flash" height="900" width="1600" id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=rentafrag" bgcolor="#000000"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" /><param name="flashvars" value="hostname=www.twitch.tv&channel=rentafrag&auto_play=true&start_volume=25" /></object></figure></div>
+  -->
 </div>
 <script type="text/javascript">
 $(function() {
@@ -79,4 +85,5 @@ $(function() {
 </script>
 <script src="<?php echo DIR?>code/js/foundation/foundation.reveal.js"></script>
 <script src="<?php echo DIR?>code/js/foundation/foundation.tooltip.js"></script>
-<?php include ROOT . 'inc/footer.php'; ?>
+
+<?php include ROOT . 'inc/footer.php'; /* Load footer*/?> 
